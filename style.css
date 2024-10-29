@@ -1,0 +1,394 @@
+body {
+    font-family: 'Galano Classic', sans-serif;
+    display: grid;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 70px 50px 50px 50px 50px 50px 50px 50px 50px 650px 140px 160px;
+    grid-template-rows: 40px 30px 30px;
+    font-size: 15px;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header .more{
+  color: orange;
+}
+
+.header img {
+    width: 50px;
+    height: 50px;
+    margin: -13px 10px 0px 0px;
+}
+
+.login {
+    font-size: 13px;
+    margin-left: 20px;
+}
+
+.header .blue {
+    color: blue;
+}
+
+.header hr {
+    background-color: rgba(0, 0, 0, 0.399);
+    grid-row: 2/3;
+    grid-column: 1/13;
+    width: 100%;
+    border: none;
+    height: 2px;
+}
+
+.mainphoto {
+     margin-left: 230px;
+     margin-top: 20px;
+}
+
+.info {
+    width: 700px;
+    height: auto;
+    font-size: 20px;
+    margin-left: 350px;
+    margin-top: 100px;
+}
+
+.info p {
+    font-size: 15px;
+}
+
+.info span {
+    color: blue;
+}
+
+.collagefrst {
+    width: 1150px;
+    height: 850px;
+    margin-top: -550px;
+}
+
+.yellowbox {
+    width: 850px;
+    height: 750px;
+    background-color: #fbffa7;
+    position: relative;
+    left: 582px;
+    top: 650px;
+}
+
+.collagefrst .scndimg {
+    position: relative;
+    top: -20px;
+    left: 300px;
+}
+
+.collagefrst .frstimg {
+    position: relative;
+    width: 500px;
+    height: auto;
+    top: 25px;
+    left: 200px;
+}
+
+.infotwo {
+    width: 660px;
+    height: auto;
+    font-size: 22px;
+    margin-left: 350px;
+    margin-top: 100px;
+    position: absolute;
+    top: 2000px;
+}
+
+.infotwo p {
+    font-size: 15px;
+}
+
+iframe {
+    margin-top: 100px;
+}
+
+.videopart p {
+    font-size: 11px;
+}
+
+.infothree {
+    width: 647px;
+    height: auto;
+    font-size: 33px;
+    margin-left: 350px;
+    margin-top: 100px;
+    position: absolute;
+    top: 2700px;
+}
+
+.infothree p {
+    font-size: 15px;
+}
+
+.videopart {
+    position: absolute;
+    top: 2250px;
+    left: 360px;
+}
+
+.collagescnd {
+    position: absolute;
+    top: 3300px;
+}
+
+.greenbox {
+    background-color: #b7ffc0;
+    width: 800px;
+    height: 900px;
+}
+
+.collagescnd .frstimgclgtwo, .scndimgclgtwo {
+    width: 400px;
+    height: 300px;
+}
+
+.frstimgclgtwo {
+    position: relative;
+    bottom: 800px;
+    left: 100px;
+}
+
+.scndimgclgtwo {
+    position: relative;
+    bottom: 400px;
+    right: 305px;
+}
+
+.thrdimgclgtwo {
+    position: relative;
+    bottom: 1090px;
+    left: 600px;
+}
+
+.infofour {
+    width: 647px;
+    height: auto;
+    font-size: 33px;
+    margin-left: 350px;
+    margin-top: 100px;
+    position: absolute;
+    top: 4200px;
+}
+
+.infofour p {
+    font-size: 15px;
+}
+
+.pc-photo {
+    position: absolute;
+    top: 4750px;
+    width: 1100px;
+    height: auto;
+    left: 165px;
+}
+
+.infofive {
+    width: 647px;
+    height: auto;
+    font-size: 33px;
+    margin-left: 350px;
+    margin-top: 100px;
+    position: absolute;
+    top: 5400px;
+}
+
+.infofive p {
+    font-size: 15px;
+}
+
+.collagethrd {
+    position: absolute;
+    top: 6000px;
+}
+
+.frstimgclgthree {
+    width: 450px;
+    height: auto;
+    position: relative;
+    bottom: 850px;
+    left: 150px;
+}
+
+.scndimgclgthree {
+    width: 700px;
+    height: 600px;
+    position: relative;
+    bottom: 700px;
+    left: 280px;
+}
+
+.purplebox {
+    height: 800px;
+    width: 1000px;
+    background-color: #d4b3ff;
+    position: relative;
+    left: 250px;
+}
+
+.infosix {
+    width: 647px;
+    height: auto;
+    font-size: 33px;
+    margin-left: 350px;
+    margin-top: 100px;
+    position: absolute;
+    top: 6800px;
+}
+
+.infosix p {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    background-color: #b1c5ff;
+    width: 1000px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    position: absolute;
+    top: 7450px;
+    left: 230px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.last {
+    width: 500px;
+    height: 400px;
+}
+
+.textlast {
+    display: grid;
+    margin: 40px 60px 60px 100px;
+    font-size: 24px;
+    width: 250px;
+    height: auto;
+}
+
+.container a {
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.foot {
+    position: absolute;
+    top: 7900px;
+    width: 1300px;
+    left: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 1fr 1fr;
+}
+
+.icons img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+.foot h2 {
+    display: grid;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.footfrst {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.footscnd {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footthrd {
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.footfrth {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.footffth {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer {
+    position: absolute;
+    width: 1300px;
+    left: 70px;
+    top: 8400px;
+    display: grid;
+    grid-template-columns: 110px 130px 90px 110px 130px 600px 110px 100px;
+    font-size: 13px;
+}
+
+.footer img {
+    width: 50px;
+    height: 50px;
+}
+
+.row-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.row-2 input {
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+    border: none;
+    background-color: rgb(215, 215, 215);
+}
+
+.row-2 button {
+    width: 150px;
+    height: 42px;
+    border: none;
+    color: white;
+    background-color: blue;
+}
+
+#languages {
+    width: 70px;
+    height: 35px;
+    background-color: rgb(176, 175, 175);
+    border: none;
+    border-radius: 0px;
+}
+
+#countries {
+    width: 150px;
+    height: 35px;
+    background-color: rgb(176, 175, 175);
+    border: none;
+    border-radius: 0px;
+}
